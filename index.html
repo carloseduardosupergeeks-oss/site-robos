@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href ="styles.css" ref = "stylesheet">
+    <link href ="styles.css" rel = "stylesheet">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"></script>
     <script src = "app.js" defer></script>
 </head>
@@ -18,9 +18,10 @@
 
 
     <header class = "header"><!-- só Deus sabe -->
-        <a href = "#"><img src = V1Pin.webp></a>
+        <a href = "#"><img src = V1Pin.webp class = "logo"></a>
         <nav>
             <a href = "#"> Robôs</a>
+             <a href = "#"> Manutenção</a>
             <a href = "#"> Garantia</a>
             <a href = "#"> Reclamações</a>
         
@@ -40,8 +41,29 @@ alt  =  "V1"
 camera-controls>
 </model-viewer>
 </div>
+<div class = "product-info">
+    <h1>V1</h1>
+    <p class = "description"> Versatil em: Velocidade, customizção, uso de armas</p>
+    <div class = "price">R$50,00</div>
+    </div class = "option-group">
+
+    <button
+    class = "color"
+    data-variant="V1"></button>
+
+    <button
+    class = "color"
+    data-variant="V2"></button>
+
+    <button
+    class = "color"
+    data-variant="V3"></button>
 
 
+</div>
+
+
+<button class = "add-cart" >Adicionar-ao-carrinho</button>
 </div>
 </section>
 
